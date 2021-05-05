@@ -1,47 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14256" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14243"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14219"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Country_Quiz_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" height="0.5" alignment="left" title="국가퀴즈" id="6TW-Md-4VP">
+                            <color key="backgroundColor" red="0.4549019608" green="0.72549019609999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="18"/>
+                            <connections>
+                                <action selector="goToKorea" destination="AgC-eL-Hgc" id="qjW-B5-148"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="0.5" alignment="left" title="수도퀴즈" id="99w-Xm-a7Y">
+                            <color key="backgroundColor" red="0.99215686270000003" green="0.47450980390000003" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="18"/>
+                        </button>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
         </scene>
-        <!--Static Notification Interface Controller-->
-        <scene sceneID="AEw-b0-oYE">
+        <!--korea-->
+        <scene sceneID="ZhB-GE-mRD">
             <objects>
-                <notificationController id="YCC-NB-fut">
+                <controller identifier="korea" id="ocu-8f-b28" customClass="korea" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
-                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="kr" id="oRR-61-NHQ"/>
+                        <group width="1" alignment="left" id="zeO-nq-nzf">
+                            <items>
+                                <button width="0.5" alignment="left" title="한국" id="UtZ-yb-pdY">
+                                    <connections>
+                                        <action selector="goToCanada" destination="ocu-8f-b28" id="rDA-Mm-FGU"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="일본" id="5dg-cP-sKr">
+                                    <connections>
+                                        <action selector="nextToCanada" destination="ocu-8f-b28" id="xRL-4l-8nZ"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="0.5" alignment="center" text="Score :" id="IXx-Ou-SBS"/>
                     </items>
-                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
                     <connections>
-                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
-                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
-                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                        <outlet property="score" destination="IXx-Ou-SBS" id="wuw-Cu-hKd"/>
                     </connections>
-                </notificationController>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="643"/>
+            <point key="canvasLocation" x="521" y="183"/>
         </scene>
-        <!--Notification Controller-->
-        <scene sceneID="ZPc-GJ-vnh">
+        <!--canada-->
+        <scene sceneID="nOv-GG-9RQ">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller identifier="canada" id="YvD-9F-ee9" customClass="canada" customModule="Country_Quiz_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="ca" id="YwS-7R-xgm"/>
+                        <group width="1" alignment="left" id="wRw-9V-an2">
+                            <items>
+                                <button width="0.5" alignment="left" title="캐나다" id="iOv-ko-gYY">
+                                    <connections>
+                                        <action selector="goToChina" destination="YvD-9F-ee9" id="0jF-gj-4bV"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="일본" id="rfH-fz-hle"/>
+                            </items>
+                        </group>
+                        <label width="0.5" alignment="center" text="Score :" id="2x7-nK-ROe"/>
+                    </items>
+                    <connections>
+                        <outlet property="score_1" destination="2x7-nK-ROe" id="3uZ-PD-1hM"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="468" y="643"/>
+            <point key="canvasLocation" x="794" y="183"/>
         </scene>
-        <!--Notification Controller-->
-        <scene sceneID="Niz-AI-uX2">
+        <!--china-->
+        <scene sceneID="Lbg-RO-Ptu">
             <objects>
-                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModuleProvider="target"/>
+                <controller identifier="china" id="K0Z-oC-sqH" customClass="china">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="cn" id="64f-eM-eeA"/>
+                        <group width="1" alignment="left" id="TbP-s9-qWx">
+                            <items>
+                                <button width="0.5" alignment="left" title="캐나다" id="GdC-ng-6fp"/>
+                                <button width="0.5" alignment="left" title="일본" id="z0h-tT-tLv"/>
+                            </items>
+                        </group>
+                        <label width="0.5" height="20" alignment="center" text="Score :" id="iAU-0I-TWg"/>
+                    </items>
+                    <connections>
+                        <outlet property="score_2" destination="iAU-0I-TWg" id="WrG-4Y-fqU"/>
+                    </connections>
+                </controller>
             </objects>
-            <point key="canvasLocation" x="468" y="345"/>
+            <point key="canvasLocation" x="1136" y="183"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ca" width="80" height="40"/>
+        <image name="cn" width="60" height="40"/>
+        <image name="kr" width="60" height="40"/>
+    </resources>
 </document>
