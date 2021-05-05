@@ -69,7 +69,11 @@
                                         <action selector="goToChina" destination="YvD-9F-ee9" id="0jF-gj-4bV"/>
                                     </connections>
                                 </button>
-                                <button width="0.5" alignment="left" title="일본" id="rfH-fz-hle"/>
+                                <button width="0.5" alignment="left" title="일본" id="rfH-fz-hle">
+                                    <connections>
+                                        <action selector="nextToChina" destination="YvD-9F-ee9" id="ZGA-DS-SMY"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <label width="0.5" alignment="center" text="Score :" id="2x7-nK-ROe"/>
@@ -84,28 +88,66 @@
         <!--china-->
         <scene sceneID="Lbg-RO-Ptu">
             <objects>
-                <controller identifier="china" id="K0Z-oC-sqH" customClass="china">
+                <controller identifier="china" id="K0Z-oC-sqH" customClass="china" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
                         <imageView width="0.69999999999999996" height="0.5" alignment="center" image="cn" id="64f-eM-eeA"/>
                         <group width="1" alignment="left" id="TbP-s9-qWx">
                             <items>
-                                <button width="0.5" alignment="left" title="캐나다" id="GdC-ng-6fp"/>
-                                <button width="0.5" alignment="left" title="일본" id="z0h-tT-tLv"/>
+                                <button width="0.5" alignment="left" title="캐나다" id="GdC-ng-6fp">
+                                    <connections>
+                                        <action selector="goToFrance" destination="K0Z-oC-sqH" id="b88-II-JRY"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="중국" id="z0h-tT-tLv">
+                                    <connections>
+                                        <action selector="nextToFrance" destination="K0Z-oC-sqH" id="SXl-oO-zV4"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <label width="0.5" height="20" alignment="center" text="Score :" id="iAU-0I-TWg"/>
                     </items>
                     <connections>
-                        <outlet property="score_2" destination="iAU-0I-TWg" id="WrG-4Y-fqU"/>
+                        <outlet property="score_2" destination="iAU-0I-TWg" id="WAW-97-fzf"/>
                     </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="1136" y="183"/>
         </scene>
+        <!--france-->
+        <scene sceneID="rqx-99-7fI">
+            <objects>
+                <controller identifier="france" id="eXt-l6-MkA" customClass="france" customModule="Country_Quiz_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="fr" id="Wlj-Uh-eU4"/>
+                        <group width="1" alignment="left" id="NxM-TA-if3">
+                            <items>
+                                <button width="0.5" alignment="left" title="캐나다" id="PaF-Zv-QwQ">
+                                    <connections>
+                                        <action selector="goToFrance" destination="eXt-l6-MkA" id="pR0-bf-I0b"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="프랑스" id="PwU-hw-Wk4">
+                                    <connections>
+                                        <action selector="nextToFrance" destination="eXt-l6-MkA" id="2Ut-2j-LN8"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="0.5" alignment="center" text="Score :" id="3o2-B0-wfx"/>
+                    </items>
+                    <connections>
+                        <outlet property="score_3" destination="3o2-B0-wfx" id="U6M-tN-apN"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1415" y="183"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ca" width="80" height="40"/>
         <image name="cn" width="60" height="40"/>
+        <image name="fr" width="60" height="40"/>
         <image name="kr" width="60" height="40"/>
     </resources>
 </document>

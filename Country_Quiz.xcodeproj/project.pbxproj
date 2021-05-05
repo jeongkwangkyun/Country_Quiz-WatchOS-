@@ -18,6 +18,7 @@
 		53E5973A2641979400439AA8 /* korea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E597392641979400439AA8 /* korea.swift */; };
 		53E5973C2641984C00439AA8 /* canada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E5973B2641984C00439AA8 /* canada.swift */; };
 		53E5973E26426A0B00439AA8 /* china.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E5973D26426A0B00439AA8 /* china.swift */; };
+		53E597402642869400439AA8 /* france.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E5973F2642869400439AA8 /* france.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		53E597392641979400439AA8 /* korea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = korea.swift; sourceTree = "<group>"; };
 		53E5973B2641984C00439AA8 /* canada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canada.swift; sourceTree = "<group>"; };
 		53E5973D26426A0B00439AA8 /* china.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = china.swift; sourceTree = "<group>"; };
+		53E5973F2642869400439AA8 /* france.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = france.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				53E597392641979400439AA8 /* korea.swift */,
 				53E5973B2641984C00439AA8 /* canada.swift */,
 				53E5973D26426A0B00439AA8 /* china.swift */,
+				53E5973F2642869400439AA8 /* france.swift */,
 			);
 			path = "Country_Quiz WatchKit Extension";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				53E5973E26426A0B00439AA8 /* china.swift in Sources */,
 				53E597252641944900439AA8 /* ExtensionDelegate.swift in Sources */,
 				53E597232641944900439AA8 /* InterfaceController.swift in Sources */,
+				53E597402642869400439AA8 /* france.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

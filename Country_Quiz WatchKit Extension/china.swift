@@ -12,9 +12,15 @@ import Foundation
 
 class china: WKInterfaceController {
 
+    @IBOutlet weak var score_2: WKInterfaceLabel!
+    public var tmp=0
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        
+        if let count = context as? Int{
+            score_2.setText("Score : \(count)")
+            tmp=count
+        }
         // Configure interface objects here.
     }
 
@@ -27,5 +33,12 @@ class china: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-
+    @IBAction func goToFrance() {
+        self.tmp=self.tmp+1
+        pushController(withName: "france", context: tmp)
+    }
+    
+    @IBAction func nextToFrance() {
+        pushController(withName: "france", context: tmp)
+    }
 }

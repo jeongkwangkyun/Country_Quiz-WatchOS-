@@ -34,7 +34,7 @@ class korea: WKInterfaceController {
     @IBAction func goToCanada() {
         self.count=self.count+1
         pushController(withName: "canada", context: count)
-        self.score.setText("Score : \(self.count)")
+        score.setText("Score : \(self.count)")
     }
     
     @IBAction func nextToCanada() {
