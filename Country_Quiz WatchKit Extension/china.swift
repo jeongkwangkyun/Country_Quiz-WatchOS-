@@ -33,12 +33,12 @@ class china: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-    @IBAction func goToFrance() {
-        self.tmp=self.tmp+1
+    @IBAction func nextToFrance() {
         pushController(withName: "france", context: tmp)
     }
     
-    @IBAction func nextToFrance() {
+    @IBAction func goToFrance() {
+        tmp=tmp+1
         pushController(withName: "france", context: tmp)
     }
 }

@@ -1,5 +1,5 @@
 //
-//  france.swift
+//  usa.swift
 //  Country_Quiz WatchKit Extension
 //
 //  Created by 정광균 on 2021/05/05.
@@ -10,16 +10,16 @@ import WatchKit
 import Foundation
 
 
-class france: WKInterfaceController {
-    
-    @IBOutlet weak var score_3: WKInterfaceLabel!
+class usa: WKInterfaceController {
     
     var tmp=0
+    
+    @IBOutlet weak var score_10: WKInterfaceLabel!
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         if let count = context as? Int{
-            score_3.setText("Score : \(count)")
+            score_10.setText("Score : \(count)")
             tmp=count
         }
         // Configure interface objects here.
@@ -34,13 +34,12 @@ class france: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-    
-    @IBAction func goToJapan() {
+
+    @IBAction func goToItaly() {
         tmp=tmp+1
-        pushController(withName: "japan", context: tmp)
+        pushController(withName: "italy", context: tmp)
     }
-    
-    @IBAction func nextToJapan() {
-        pushController(withName: "japan", context: tmp)
+    @IBAction func nextToItaly() {
+        pushController(withName: "italy", context: tmp)
     }
 }

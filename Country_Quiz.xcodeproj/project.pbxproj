@@ -19,6 +19,12 @@
 		53E5973C2641984C00439AA8 /* canada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E5973B2641984C00439AA8 /* canada.swift */; };
 		53E5973E26426A0B00439AA8 /* china.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E5973D26426A0B00439AA8 /* china.swift */; };
 		53E597402642869400439AA8 /* france.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E5973F2642869400439AA8 /* france.swift */; };
+		53E597422642C28700439AA8 /* japan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E597412642C28700439AA8 /* japan.swift */; };
+		53E597442642C58100439AA8 /* final.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E597432642C58100439AA8 /* final.swift */; };
+		53E597462642C63B00439AA8 /* swiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E597452642C63B00439AA8 /* swiz.swift */; };
+		53E597482642C89600439AA8 /* usa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E597472642C89600439AA8 /* usa.swift */; };
+		53E5974A2642C8B100439AA8 /* italy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E597492642C8B100439AA8 /* italy.swift */; };
+		53E5974C2642C8C300439AA8 /* turkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E5974B2642C8C300439AA8 /* turkey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +86,12 @@
 		53E5973B2641984C00439AA8 /* canada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canada.swift; sourceTree = "<group>"; };
 		53E5973D26426A0B00439AA8 /* china.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = china.swift; sourceTree = "<group>"; };
 		53E5973F2642869400439AA8 /* france.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = france.swift; sourceTree = "<group>"; };
+		53E597412642C28700439AA8 /* japan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japan.swift; sourceTree = "<group>"; };
+		53E597432642C58100439AA8 /* final.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = final.swift; sourceTree = "<group>"; };
+		53E597452642C63B00439AA8 /* swiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiz.swift; sourceTree = "<group>"; };
+		53E597472642C89600439AA8 /* usa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usa.swift; sourceTree = "<group>"; };
+		53E597492642C8B100439AA8 /* italy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = italy.swift; sourceTree = "<group>"; };
+		53E5974B2642C8C300439AA8 /* turkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turkey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,9 +144,15 @@
 				53E5972A2641944A00439AA8 /* Info.plist */,
 				53E5972B2641944A00439AA8 /* PushNotificationPayload.apns */,
 				53E597392641979400439AA8 /* korea.swift */,
+				53E597412642C28700439AA8 /* japan.swift */,
 				53E5973B2641984C00439AA8 /* canada.swift */,
+				53E597492642C8B100439AA8 /* italy.swift */,
 				53E5973D26426A0B00439AA8 /* china.swift */,
+				53E5974B2642C8C300439AA8 /* turkey.swift */,
 				53E5973F2642869400439AA8 /* france.swift */,
+				53E597472642C89600439AA8 /* usa.swift */,
+				53E597432642C58100439AA8 /* final.swift */,
+				53E597452642C63B00439AA8 /* swiz.swift */,
 			);
 			path = "Country_Quiz WatchKit Extension";
 			sourceTree = "<group>";
@@ -266,12 +284,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E597462642C63B00439AA8 /* swiz.swift in Sources */,
+				53E5974C2642C8C300439AA8 /* turkey.swift in Sources */,
+				53E5974A2642C8B100439AA8 /* italy.swift in Sources */,
+				53E597442642C58100439AA8 /* final.swift in Sources */,
+				53E597422642C28700439AA8 /* japan.swift in Sources */,
 				53E5973C2641984C00439AA8 /* canada.swift in Sources */,
 				53E5973A2641979400439AA8 /* korea.swift in Sources */,
 				53E597272641944900439AA8 /* NotificationController.swift in Sources */,
 				53E5973E26426A0B00439AA8 /* china.swift in Sources */,
 				53E597252641944900439AA8 /* ExtensionDelegate.swift in Sources */,
 				53E597232641944900439AA8 /* InterfaceController.swift in Sources */,
+				53E597482642C89600439AA8 /* usa.swift in Sources */,
 				53E597402642869400439AA8 /* france.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
