@@ -11,7 +11,7 @@ import Foundation
 
 
 class InterfaceController: WKInterfaceController {
-
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
@@ -29,6 +29,10 @@ class InterfaceController: WKInterfaceController {
     }
     @IBAction func goToKorea() {
         pushController(withName: "korea", context: self)
+    }
+    
+    @IBAction func goToKoreaCity() {
+        pushController(withName: "korea_city", context: self)
     }
     
 }

@@ -1,8 +1,8 @@
 //
-//  korea.swift
+//  japan_city.swift
 //  Country_Quiz WatchKit Extension
 //
-//  Created by 정광균 on 2021/05/04.
+//  Created by 정광균 on 2021/05/06.
 //  Copyright © 2021 정광균. All rights reserved.
 //
 
@@ -10,14 +10,17 @@ import WatchKit
 import Foundation
 
 
-class korea: WKInterfaceController {
-    public var count=0
+class japan_city: WKInterfaceController {
+    var tmp=0
     
-    @IBOutlet weak var score: WKInterfaceLabel!
+    @IBOutlet weak var total_4: WKInterfaceLabel!
     
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        score.setText("Score : \(self.count)")
+        if let count = context as? Int{
+            total_4.setText("Score : \(count)")
+            tmp=count
+        }
         // Configure interface objects here.
     }
 
@@ -30,15 +33,12 @@ class korea: WKInterfaceController {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
     }
-    
-    @IBAction func goToCanada() {
-        self.count=self.count+1
-        pushController(withName: "canada", context: count)
-        
+    @IBAction func japna_wrong() {
+        pushController(withName: "swiz_city", context: tmp)
     }
-    
-    @IBAction func nextToCanada() {
-        pushController(withName: "canada", context: count)
+    @IBAction func japna_correct() {
+        tmp=tmp+1
+        pushController(withName: "swiz_city", context: tmp)
     }
     
 }

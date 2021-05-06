@@ -21,6 +21,9 @@
                         <button width="1" height="0.5" alignment="left" title="수도퀴즈" id="99w-Xm-a7Y">
                             <color key="backgroundColor" red="0.99215686270000003" green="0.47450980390000003" blue="0.6705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="font" type="boldSystem" pointSize="18"/>
+                            <connections>
+                                <action selector="goToKoreaCity" destination="AgC-eL-Hgc" id="pa2-bZ-fAG"/>
+                            </connections>
                         </button>
                     </items>
                 </controller>
@@ -32,7 +35,7 @@
             <objects>
                 <controller identifier="korea" id="ocu-8f-b28" customClass="korea" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
-                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="kr" id="oRR-61-NHQ"/>
+                        <imageView width="0.80000000000000004" height="0.59999999999999998" alignment="center" image="kr" id="oRR-61-NHQ"/>
                         <group width="1" alignment="left" id="zeO-nq-nzf">
                             <items>
                                 <button width="0.5" alignment="left" title="한국" id="UtZ-yb-pdY">
@@ -61,7 +64,7 @@
             <objects>
                 <controller identifier="canada" id="YvD-9F-ee9" customClass="canada" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
-                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="ca" id="YwS-7R-xgm"/>
+                        <imageView width="0.80000000000000004" height="0.59999999999999998" alignment="center" image="ca" id="YwS-7R-xgm"/>
                         <group width="1" alignment="left" id="wRw-9V-an2">
                             <items>
                                 <button width="0.5" alignment="left" title="캐나다" id="iOv-ko-gYY">
@@ -69,7 +72,7 @@
                                         <action selector="goToChina" destination="YvD-9F-ee9" id="0jF-gj-4bV"/>
                                     </connections>
                                 </button>
-                                <button width="0.5" alignment="left" title="일본" id="rfH-fz-hle">
+                                <button width="0.5" alignment="left" title="멕시코" id="rfH-fz-hle">
                                     <connections>
                                         <action selector="nextToChina" destination="YvD-9F-ee9" id="ZGA-DS-SMY"/>
                                     </connections>
@@ -90,10 +93,10 @@
             <objects>
                 <controller identifier="china" id="K0Z-oC-sqH" customClass="china" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
-                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="cn" id="64f-eM-eeA"/>
+                        <imageView width="0.80000000000000004" height="0.59999999999999998" alignment="center" image="cn" id="64f-eM-eeA"/>
                         <group width="1" alignment="left" id="TbP-s9-qWx">
                             <items>
-                                <button width="0.5" alignment="left" title="캐나다" id="GdC-ng-6fp">
+                                <button width="0.5" alignment="left" title="독일" id="GdC-ng-6fp">
                                     <connections>
                                         <action selector="nextToFrance" destination="K0Z-oC-sqH" id="6JS-Xu-NAR"/>
                                     </connections>
@@ -119,7 +122,7 @@
             <objects>
                 <controller identifier="france" id="eXt-l6-MkA" customClass="france" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
-                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="fr" id="Wlj-Uh-eU4"/>
+                        <imageView width="0.80000000000000004" height="0.59999999999999998" alignment="center" image="fr" id="Wlj-Uh-eU4"/>
                         <group width="1" alignment="left" id="NxM-TA-if3">
                             <items>
                                 <button width="0.5" alignment="left" title="이탈리아" id="PaF-Zv-QwQ">
@@ -148,7 +151,7 @@
             <objects>
                 <controller identifier="japan" id="Mkt-5c-lLu" customClass="japan" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
-                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="jp" id="Wdu-2R-e94"/>
+                        <imageView width="0.80000000000000004" height="0.59999999999999998" alignment="center" image="jp" id="Wdu-2R-e94"/>
                         <group width="1" alignment="left" id="IiV-JE-jH1">
                             <items>
                                 <button width="0.5" alignment="left" title="일본" id="4Ni-Hq-M85">
@@ -178,7 +181,7 @@
                 <controller identifier="final" id="8ss-aN-btj" customClass="final" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
                         <label width="1" alignment="right" text="rhkdrbs06@naver.com" minimumScaleFactor="0.69999999999999996" id="Tki-5E-xeY"/>
-                        <label width="1" height="43" alignment="left" text="최종 점수 :" id="Ddp-jI-tEs"/>
+                        <label width="1" height="36" alignment="left" text="최종 점수 :" id="Ddp-jI-tEs"/>
                         <button width="1" alignment="left" title="처음 화면으로" id="KeQ-lE-Arh">
                             <connections>
                                 <action selector="goToHome" destination="8ss-aN-btj" id="Hg4-zA-DQj"/>
@@ -190,17 +193,17 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="2948" y="345"/>
+            <point key="canvasLocation" x="2940" y="383"/>
         </scene>
         <!--swiz-->
         <scene sceneID="QLg-2W-tPn">
             <objects>
                 <controller identifier="swiz" id="Z94-BS-77B" customClass="swiz" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
-                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="ch" id="5AY-Ly-yOg"/>
+                        <imageView width="0.80000000000000004" height="0.59999999999999998" alignment="center" image="ch" id="5AY-Ly-yOg"/>
                         <group width="1" alignment="left" id="QEB-lI-kfy">
                             <items>
-                                <button width="0.5" alignment="left" title="영국" id="KYV-Cg-MUz">
+                                <button width="0.5" alignment="left" title="그리스" id="KYV-Cg-MUz">
                                     <connections>
                                         <action selector="nextToUsa" destination="Z94-BS-77B" id="pbC-9i-WJU"/>
                                     </connections>
@@ -226,7 +229,7 @@
             <objects>
                 <controller identifier="usa" id="gs0-Ef-Anc" customClass="usa" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
-                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="us" id="WyK-OH-INo"/>
+                        <imageView width="0.80000000000000004" height="0.59999999999999998" alignment="center" image="us" id="WyK-OH-INo"/>
                         <group width="1" alignment="left" id="xWZ-8z-D2F">
                             <items>
                                 <button width="0.5" alignment="left" title="미국" id="pP6-qo-gP5">
@@ -255,7 +258,7 @@
             <objects>
                 <controller identifier="italy" id="gy4-SD-E6c" customClass="italy" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
-                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="it" id="AbE-Ad-3WR"/>
+                        <imageView width="0.80000000000000004" height="0.59999999999999998" alignment="center" image="it" id="AbE-Ad-3WR"/>
                         <group width="1" alignment="left" id="xVJ-Ri-OGJ">
                             <items>
                                 <button width="0.5" alignment="left" title="이탈리아" id="4Hv-Zq-ttj">
@@ -284,7 +287,7 @@
             <objects>
                 <controller identifier="turkey" id="qu2-ej-ccV" customClass="turkey" customModule="Country_Quiz_WatchKit_Extension">
                     <items>
-                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="tr" id="wpJ-m6-JEs"/>
+                        <imageView width="0.80000000000000004" height="0.59999999999999998" alignment="center" image="tr" id="wpJ-m6-JEs"/>
                         <group width="1" alignment="left" id="t5H-dE-NhE">
                             <items>
                                 <button width="0.5" alignment="left" title="토고" id="CkU-pe-ahp">
@@ -307,6 +310,276 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="2685" y="183"/>
+        </scene>
+        <!--korea_city-->
+        <scene sceneID="Ng4-38-X2v">
+            <objects>
+                <controller identifier="korea_city" id="MxK-zP-vR5" customClass="korea_city" customModule="Country_Quiz_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="kr" id="cLL-yy-e2f"/>
+                        <label alignment="center" alpha="0.94999999999999996" text="대한민국" id="JJO-F8-X1M"/>
+                        <group width="1" alignment="left" id="UkJ-Ff-7o5">
+                            <items>
+                                <button width="0.5" alignment="left" title="부산" id="7yd-B2-jRy">
+                                    <connections>
+                                        <action selector="korea_wrong" destination="MxK-zP-vR5" id="rZb-Mv-60t"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="서울" id="7Wf-gU-vzd">
+                                    <connections>
+                                        <action selector="korea_correct" destination="MxK-zP-vR5" id="EVe-3e-9ZV"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="0.5" alignment="center" text="Score :" id="fI6-MQ-rlH"/>
+                    </items>
+                    <connections>
+                        <outlet property="total" destination="fI6-MQ-rlH" id="UZw-0F-Sip"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="512" y="528"/>
+        </scene>
+        <!--canada_city-->
+        <scene sceneID="e9m-I4-eDR">
+            <objects>
+                <controller identifier="canada_city" id="cAI-eV-s8R" customClass="canada_city" customModule="Country_Quiz_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="ca" id="ttc-sX-VvC"/>
+                        <label alignment="center" alpha="0.94999999999999996" text="캐나다" id="zjE-h1-uE7"/>
+                        <group width="1" alignment="left" id="0fg-GW-Dbr">
+                            <items>
+                                <button width="0.5" alignment="left" title="몬트리올" id="qca-QD-3cq">
+                                    <connections>
+                                        <action selector="canada_wrong" destination="cAI-eV-s8R" id="s89-eC-z0D"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="오타와" id="2wx-Zw-aH5">
+                                    <connections>
+                                        <action selector="canada_correct" destination="cAI-eV-s8R" id="o2Q-6d-36t"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label alignment="center" text="Score :" id="zRH-dn-KxF"/>
+                    </items>
+                    <connections>
+                        <outlet property="total_1" destination="zRH-dn-KxF" id="4ry-9J-P8d"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="794" y="528"/>
+        </scene>
+        <!--china_city-->
+        <scene sceneID="6C8-Ph-fQc">
+            <objects>
+                <controller identifier="china_city" id="ezp-Xw-oB2" customClass="china_city" customModule="Country_Quiz_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="cn" id="vsX-65-rjl"/>
+                        <label alignment="center" alpha="0.94999999999999996" text="중국" id="Xl7-8p-Nfv"/>
+                        <group width="1" alignment="left" id="TBw-eA-YIP">
+                            <items>
+                                <button width="0.5" alignment="left" title="상하이" id="uXt-X4-iUa">
+                                    <connections>
+                                        <action selector="china_wrong" destination="ezp-Xw-oB2" id="YdP-GU-vtR"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="베이징" id="NhZ-Lk-7iO">
+                                    <connections>
+                                        <action selector="china_correct" destination="ezp-Xw-oB2" id="DdS-Q1-eHg"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="0.5" alignment="center" text="Score :" id="Dtt-XO-8In"/>
+                    </items>
+                    <connections>
+                        <outlet property="total_2" destination="Dtt-XO-8In" id="rgV-yt-z4N"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1046" y="528"/>
+        </scene>
+        <!--france_city-->
+        <scene sceneID="jb4-qU-UTB">
+            <objects>
+                <controller identifier="france_city" id="NPS-PP-GdB" customClass="france_city" customModule="Country_Quiz_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="fr" id="7Dj-po-WRF"/>
+                        <label alignment="center" alpha="0.94999999999999996" text="프랑스" id="dj5-EG-Pse"/>
+                        <group width="1" alignment="left" id="BTi-Nt-dAh">
+                            <items>
+                                <button width="0.5" alignment="left" title="파리" id="wji-vs-iqD">
+                                    <connections>
+                                        <action selector="france_correct" destination="NPS-PP-GdB" id="dlT-5p-jlR"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="깐느" id="ctb-2L-PkH">
+                                    <connections>
+                                        <action selector="france_wrong" destination="NPS-PP-GdB" id="3Ug-W1-RVl"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="0.5" alignment="center" text="Score :" id="41x-az-DeQ"/>
+                    </items>
+                    <connections>
+                        <outlet property="total_3" destination="41x-az-DeQ" id="x74-Rf-xSY"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1312" y="528"/>
+        </scene>
+        <!--japan_city-->
+        <scene sceneID="gs2-gH-lmp">
+            <objects>
+                <controller identifier="japan_city" id="Caw-JG-HxE" customClass="japan_city" customModule="Country_Quiz_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="jp" id="CpV-9C-Id1"/>
+                        <label alignment="center" alpha="0.94999999999999996" text="일본" id="tbI-bI-3jA"/>
+                        <group width="1" alignment="left" id="88u-w0-4eg">
+                            <items>
+                                <button width="0.5" alignment="left" title="오사카" id="eWe-FE-4ax">
+                                    <connections>
+                                        <action selector="japna_wrong" destination="Caw-JG-HxE" id="Vcz-sN-VC8"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="도쿄" id="IpI-xB-Kn7">
+                                    <connections>
+                                        <action selector="japna_correct" destination="Caw-JG-HxE" id="1Fw-Le-2PA"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="0.5" alignment="center" text="Score :" id="fG9-Wv-m7D"/>
+                    </items>
+                    <connections>
+                        <outlet property="total_4" destination="fG9-Wv-m7D" id="m9f-gA-9Ou"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1618" y="558"/>
+        </scene>
+        <!--swiz_city-->
+        <scene sceneID="Pj1-Zf-gWf">
+            <objects>
+                <controller identifier="swiz_city" id="XP5-vW-iwd" customClass="swiz_city" customModule="Country_Quiz_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="ch" id="ePr-Mu-i9i"/>
+                        <label alignment="center" alpha="0.94999999999999996" text="스위스" id="MuO-R3-fxe"/>
+                        <group width="1" alignment="left" id="Jx0-v1-kkI">
+                            <items>
+                                <button width="0.5" alignment="left" title="베른" id="qRC-yL-owM">
+                                    <connections>
+                                        <action selector="swiz_correct" destination="XP5-vW-iwd" id="dOP-aw-NSS"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="취리히" id="xLz-SS-WkG">
+                                    <connections>
+                                        <action selector="swiz_wrong" destination="XP5-vW-iwd" id="GwH-ps-6Zp"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="0.5" alignment="center" text="Score :" id="pa1-ue-XRy"/>
+                    </items>
+                    <connections>
+                        <outlet property="total_5" destination="pa1-ue-XRy" id="NE9-Tp-aMb"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1929" y="558"/>
+        </scene>
+        <!--usa_city-->
+        <scene sceneID="QkG-gF-67p">
+            <objects>
+                <controller identifier="usa_city" id="EeZ-DD-rkC" customClass="usa_city" customModule="Country_Quiz_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="us" id="b4D-gB-dBP"/>
+                        <label alignment="center" alpha="0.94999999999999996" text="미국" id="XZQ-h0-MYP"/>
+                        <group width="1" alignment="left" id="HHH-uh-78I">
+                            <items>
+                                <button width="0.5" alignment="left" title="뉴욕" id="Riw-5k-64V">
+                                    <connections>
+                                        <action selector="usa_wrong" destination="EeZ-DD-rkC" id="Oxx-ZF-oJU"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="워싱턴" id="sDM-9L-hTb">
+                                    <connections>
+                                        <action selector="usa_correct" destination="EeZ-DD-rkC" id="ABk-XS-ych"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="0.5" alignment="center" text="Score :" id="UKC-dQ-eHK"/>
+                    </items>
+                    <connections>
+                        <outlet property="total_6" destination="UKC-dQ-eHK" id="bAH-Nx-HlP"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="2165" y="558"/>
+        </scene>
+        <!--italy_city-->
+        <scene sceneID="lfA-oC-PDe">
+            <objects>
+                <controller identifier="italy_city" id="flE-bK-33z" customClass="italy_city" customModule="Country_Quiz_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="it" id="Ed6-bO-3Td"/>
+                        <label alignment="center" alpha="0.94999999999999996" text="이탈리아" id="kW4-QW-6qX"/>
+                        <group width="1" alignment="left" id="MIx-Uy-mZl">
+                            <items>
+                                <button width="0.5" alignment="left" title="베네치아" id="uj3-ZU-kOF">
+                                    <connections>
+                                        <action selector="italy_wrong" destination="flE-bK-33z" id="6dI-ju-wsx"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="로마" id="zyZ-7S-UtR">
+                                    <connections>
+                                        <action selector="italy_correct" destination="flE-bK-33z" id="S2M-P4-aQm"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="0.5" alignment="center" text="Score :" id="wGh-Zt-aEM"/>
+                    </items>
+                    <connections>
+                        <outlet property="total_7" destination="wGh-Zt-aEM" id="vSy-X0-WS8"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="2434" y="558"/>
+        </scene>
+        <!--turkey_city-->
+        <scene sceneID="fWm-91-0Xl">
+            <objects>
+                <controller identifier="turkey_city" id="YbK-j6-9Bo" customClass="turkey_city" customModule="Country_Quiz_WatchKit_Extension">
+                    <items>
+                        <imageView width="0.69999999999999996" height="0.5" alignment="center" image="tr" id="acj-k7-6fY"/>
+                        <label alignment="center" alpha="0.94999999999999996" text="터키" id="d0Q-NX-fJF"/>
+                        <group width="1" alignment="left" id="6Xe-To-0lh">
+                            <items>
+                                <button width="0.5" alignment="left" title="앙카라" id="elv-bX-VDo">
+                                    <connections>
+                                        <action selector="turkey_correct" destination="YbK-j6-9Bo" id="RMX-ND-6cd"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" alignment="left" title="이스탄불" id="rtS-3E-SQU">
+                                    <connections>
+                                        <action selector="turkey_wrong" destination="YbK-j6-9Bo" id="YbK-B9-Q3i"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="0.5" alignment="center" text="Score :" id="JH0-6a-tdl"/>
+                    </items>
+                    <connections>
+                        <outlet property="total_8" destination="JH0-6a-tdl" id="V6c-vv-vcv"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="2675" y="548"/>
         </scene>
     </scenes>
     <resources>

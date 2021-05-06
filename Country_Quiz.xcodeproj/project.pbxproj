@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53C2D58A2643AEFB00FC55D1 /* canada_city.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C2D5892643AEFB00FC55D1 /* canada_city.swift */; };
+		53C2D58C2643B0FF00FC55D1 /* china_city.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C2D58B2643B0FF00FC55D1 /* china_city.swift */; };
+		53C2D58E2643B1D100FC55D1 /* france_city.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C2D58D2643B1D100FC55D1 /* france_city.swift */; };
+		53C2D5902643B3A000FC55D1 /* japan_city.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C2D58F2643B3A000FC55D1 /* japan_city.swift */; };
+		53C2D5922643B49900FC55D1 /* swiz_city.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C2D5912643B49900FC55D1 /* swiz_city.swift */; };
+		53C2D5942643B60000FC55D1 /* usa_city.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C2D5932643B60000FC55D1 /* usa_city.swift */; };
+		53C2D5962643B6D700FC55D1 /* italy_city.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C2D5952643B6D700FC55D1 /* italy_city.swift */; };
+		53C2D5982643B7B900FC55D1 /* turkey_city.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C2D5972643B7B900FC55D1 /* turkey_city.swift */; };
 		53E5970F2641944700439AA8 /* Country_Quiz WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 53E5970E2641944700439AA8 /* Country_Quiz WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		53E597152641944700439AA8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53E597132641944700439AA8 /* Interface.storyboard */; };
 		53E597172641944900439AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E597162641944900439AA8 /* Assets.xcassets */; };
@@ -25,6 +33,7 @@
 		53E597482642C89600439AA8 /* usa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E597472642C89600439AA8 /* usa.swift */; };
 		53E5974A2642C8B100439AA8 /* italy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E597492642C8B100439AA8 /* italy.swift */; };
 		53E5974C2642C8C300439AA8 /* turkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E5974B2642C8C300439AA8 /* turkey.swift */; };
+		53E597502642D74100439AA8 /* korea_city.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E5974F2642D74100439AA8 /* korea_city.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +79,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		53C2D5892643AEFB00FC55D1 /* canada_city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canada_city.swift; sourceTree = "<group>"; };
+		53C2D58B2643B0FF00FC55D1 /* china_city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = china_city.swift; sourceTree = "<group>"; };
+		53C2D58D2643B1D100FC55D1 /* france_city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = france_city.swift; sourceTree = "<group>"; };
+		53C2D58F2643B3A000FC55D1 /* japan_city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = japan_city.swift; sourceTree = "<group>"; };
+		53C2D5912643B49900FC55D1 /* swiz_city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiz_city.swift; sourceTree = "<group>"; };
+		53C2D5932643B60000FC55D1 /* usa_city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usa_city.swift; sourceTree = "<group>"; };
+		53C2D5952643B6D700FC55D1 /* italy_city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = italy_city.swift; sourceTree = "<group>"; };
+		53C2D5972643B7B900FC55D1 /* turkey_city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turkey_city.swift; sourceTree = "<group>"; };
 		53E5970A2641944700439AA8 /* Country_Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Country_Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E5970E2641944700439AA8 /* Country_Quiz WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Country_Quiz WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E597142641944700439AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
@@ -92,6 +109,7 @@
 		53E597472642C89600439AA8 /* usa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usa.swift; sourceTree = "<group>"; };
 		53E597492642C8B100439AA8 /* italy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = italy.swift; sourceTree = "<group>"; };
 		53E5974B2642C8C300439AA8 /* turkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = turkey.swift; sourceTree = "<group>"; };
+		53E5974F2642D74100439AA8 /* korea_city.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = korea_city.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +161,7 @@
 				53E597282641944A00439AA8 /* Assets.xcassets */,
 				53E5972A2641944A00439AA8 /* Info.plist */,
 				53E5972B2641944A00439AA8 /* PushNotificationPayload.apns */,
+				53C2D5932643B60000FC55D1 /* usa_city.swift */,
 				53E597392641979400439AA8 /* korea.swift */,
 				53E597412642C28700439AA8 /* japan.swift */,
 				53E5973B2641984C00439AA8 /* canada.swift */,
@@ -150,7 +169,15 @@
 				53E5973D26426A0B00439AA8 /* china.swift */,
 				53E5974B2642C8C300439AA8 /* turkey.swift */,
 				53E5973F2642869400439AA8 /* france.swift */,
+				53E5974F2642D74100439AA8 /* korea_city.swift */,
+				53C2D5952643B6D700FC55D1 /* italy_city.swift */,
+				53C2D58F2643B3A000FC55D1 /* japan_city.swift */,
+				53C2D5912643B49900FC55D1 /* swiz_city.swift */,
+				53C2D5972643B7B900FC55D1 /* turkey_city.swift */,
+				53C2D5892643AEFB00FC55D1 /* canada_city.swift */,
+				53C2D58D2643B1D100FC55D1 /* france_city.swift */,
 				53E597472642C89600439AA8 /* usa.swift */,
+				53C2D58B2643B0FF00FC55D1 /* china_city.swift */,
 				53E597432642C58100439AA8 /* final.swift */,
 				53E597452642C63B00439AA8 /* swiz.swift */,
 			);
@@ -286,17 +313,26 @@
 			files = (
 				53E597462642C63B00439AA8 /* swiz.swift in Sources */,
 				53E5974C2642C8C300439AA8 /* turkey.swift in Sources */,
+				53C2D5942643B60000FC55D1 /* usa_city.swift in Sources */,
 				53E5974A2642C8B100439AA8 /* italy.swift in Sources */,
+				53C2D5902643B3A000FC55D1 /* japan_city.swift in Sources */,
+				53E597502642D74100439AA8 /* korea_city.swift in Sources */,
 				53E597442642C58100439AA8 /* final.swift in Sources */,
 				53E597422642C28700439AA8 /* japan.swift in Sources */,
+				53C2D5922643B49900FC55D1 /* swiz_city.swift in Sources */,
+				53C2D58C2643B0FF00FC55D1 /* china_city.swift in Sources */,
 				53E5973C2641984C00439AA8 /* canada.swift in Sources */,
 				53E5973A2641979400439AA8 /* korea.swift in Sources */,
 				53E597272641944900439AA8 /* NotificationController.swift in Sources */,
 				53E5973E26426A0B00439AA8 /* china.swift in Sources */,
+				53C2D5982643B7B900FC55D1 /* turkey_city.swift in Sources */,
+				53C2D58E2643B1D100FC55D1 /* france_city.swift in Sources */,
 				53E597252641944900439AA8 /* ExtensionDelegate.swift in Sources */,
 				53E597232641944900439AA8 /* InterfaceController.swift in Sources */,
+				53C2D58A2643AEFB00FC55D1 /* canada_city.swift in Sources */,
 				53E597482642C89600439AA8 /* usa.swift in Sources */,
 				53E597402642869400439AA8 /* france.swift in Sources */,
+				53C2D5962643B6D700FC55D1 /* italy_city.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
