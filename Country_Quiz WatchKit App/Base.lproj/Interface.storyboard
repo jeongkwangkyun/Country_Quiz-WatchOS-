@@ -187,13 +187,14 @@
                                 <action selector="goToHome" destination="8ss-aN-btj" id="Hg4-zA-DQj"/>
                             </connections>
                         </button>
+                        <label width="120" height="0.29999999999999999" alignment="center" text="have a good day" numberOfLines="2" id="NJH-Wh-ULn"/>
                     </items>
                     <connections>
                         <outlet property="total_count" destination="Ddp-jI-tEs" id="8fO-y6-vBE"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="2940" y="383"/>
+            <point key="canvasLocation" x="2940" y="392"/>
         </scene>
         <!--swiz-->
         <scene sceneID="QLg-2W-tPn">
