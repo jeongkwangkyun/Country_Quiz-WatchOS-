@@ -39,7 +39,8 @@ class usa: WKInterfaceController {
         tmp=tmp+1
         pushController(withName: "italy", context: tmp)
     }
+    
     @IBAction func nextToItaly() {
-        pushController(withName: "italy", context: tmp)
+         pushController(withName: "italy", context: tmp)
     }
 }
